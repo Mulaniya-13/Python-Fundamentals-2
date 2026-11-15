@@ -35,9 +35,16 @@
 # else:
 #     print("Invalid password.")        
 
+# num = int(input("Enter a number: "))
+
+# if num % 5 ==0:
+#     print("The number is multiple of 5.")
+# else:
+#     print("The number is not multiple of 5.")    
+
 num = int(input("Enter a number: "))
 
-if num % 5 ==0:
-    print("The number is multiple of 5.")
+if num % 2 == 0:
+    print("The number is even.")
 else:
-    print("The number is not multiple of 5.")    
+    print("The number is odd.")
