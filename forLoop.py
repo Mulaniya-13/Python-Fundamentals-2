@@ -14,14 +14,25 @@
 # for i in range(5):
 #     print(i)
 
-word = "artificial intelligence"
+# word = "artificial intelligence"
 
-# count the number of occurrences of 'i' in the word => 5
+# # count the number of occurrences of 'i' in the word => 5
 
+# count = 0
+
+# for ch in word:
+#     if ch == 'i':
+#         count +=1
+
+# print ("The number of occurrences of 'i' in the word is:", count)        
+
+
+#  count vowels in a string
+
+word = "artificial"
 count = 0
-
 for ch in word:
-    if ch == 'i':
-        count +=1
+    if ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u':
+        count += 1
 
-print ("The number of occurrences of 'i' in the word is:", count)        
+print("The number of vowels in the word is:", count)
